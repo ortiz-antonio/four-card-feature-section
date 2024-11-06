@@ -1,11 +1,23 @@
 {% extends "layouts/base.njk" %}
-{% block content %}
-  <article class="flow">
-    <h1>{{ title }}</h1>
 
-    <div class="switcher">
-      <h2 class="text-primary">{{ subtitle }}</h2>
-      <p>{{ summary }}</p>
-    </div>
-  </article>
+{% block content %}
+  <main class="flow">
+    <header class="section">
+      <div class="section__inner">
+        <div class="wrapper flow region">
+          <h1>{{ title }}</h1>
+          <h2><h1>{{ subtitle }}</h1></h2>
+          <p>{{ summary }}</p>
+        </div>
+      </div>
+    </header>
+
+    {% for item in tools.items %}
+      <article class="card flow">
+        <h3>{{ item.title }}</h3>
+        {{ item.summary  | safe }}
+        <img src="{{ item.art }}" alt="" />
+      </article>
+    {% endfor %}
+  </main>
 {% endblock %}

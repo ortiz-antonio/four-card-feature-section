@@ -1,8 +1,22 @@
 ---
-
-title: "CUBE, Eleventy boilerplate"
-socialImage: "images/favicon-32x32.png"
-subtitle: "Boilerplate for my frontend mentor projects"
-summary: "Boilerplate Project Using CubeCSS, Eleventy, PostCSS, and Taskfiles"
-
+title: "Reliable, efficient delivery"
+subtitle: "Powered by Technology"
+socialImage: "images/icon-karma.svg"
+summary:
+  "Our Artificial Intelligence powered tools use millions of project data points to ensure
+  that your project is successful"
 layout: "layouts/home.njk"
+tools:
+  items:
+    - title: "Supervisor"
+      summary: "Monitors activity to identify project roadblocks."
+      art: "./images/icon-supervisor.svg"
+    - title: "Team Builder"
+      summary: "Scans our talent network to create the optimal team for your project"
+      art: "./images/icon-team-builder.svg"
+    - title: "Karma"
+      summary: "Regularly evaluates our talent to ensure quality "
+      art: "./images/icon-karma.svg"
+    - title: "Calculator"
+      summary: "Uses data from past projects to provide better delivery estimates"
+      art: "./images/icon-calculator.svg"
