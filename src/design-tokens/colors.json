@@ -3,16 +3,32 @@
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
   "items": [
     {
-      "name": "Dark",
-      "value": "#030303"
+      "name": "Accent Team Builder",
+      "value": "hsl(0, 78%, 62%)"
     },
     {
-      "name": "Light",
-      "value": "#ffffff"
+      "name": "Accent Supervisor",
+      "value": "hsl(180, 62%, 55%)"
+    },
+    {
+      "name": "Accent Karma",
+      "value": "hsl(34, 97%, 64%)"
+    },
+    {
+      "name": "Accent Calculator",
+      "value": "hsl(212, 86%, 64%)"
+    },
+    {
+      "name": "Base",
+      "value": "hsl(0, 0%, 98%)"
     },
     {
       "name": "Primary",
-      "value": "#02394A"
+      "value": "hsl(229, 6%, 66%)"
+    },
+    {
+      "name": "Accent",
+      "value": "hsl(234, 12%, 34%)"
     }
   ]
 }
