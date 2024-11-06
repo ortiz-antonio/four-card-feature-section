@@ -19,15 +19,15 @@
       "value": "hsl(212, 86%, 64%)"
     },
     {
-      "name": "Base",
+      "name": "Background",
       "value": "hsl(0, 0%, 98%)"
     },
     {
-      "name": "Primary",
+      "name": "Base",
       "value": "hsl(229, 6%, 66%)"
     },
     {
-      "name": "Accent",
+      "name": "Primary",
       "value": "hsl(234, 12%, 34%)"
     }
   ]
