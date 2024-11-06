@@ -88,51 +88,75 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* @font-face here */
+/* poppins-200 - latin */
 @font-face {
-  font-family: shantell;
-  font-display: swap;
-  src: url('../fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/poppins-v21-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v21-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 :root {
-  --color-dark: #030303;
-  --color-light: #fff;
-  --color-primary: #02394A;
-  --space-3xs: clamp(0.3125rem, 0.2888rem + 0.1149vw, 0.375rem);
-  --space-2xs: clamp(0.5625rem, 0.5151rem + 0.2299vw, 0.6875rem);
-  --space-xs: clamp(0.875rem, 0.8039rem + 0.3448vw, 1.0625rem);
-  --space-s: clamp(1.125rem, 1.0302rem + 0.4598vw, 1.375rem);
-  --space-m: clamp(1.125rem, 1.0302rem + 0.4598vw, 1.375rem);
-  --space-l: clamp(2.25rem, 2.0603rem + 0.9195vw, 2.75rem);
-  --space-xl: clamp(3.375rem, 3.0905rem + 1.3793vw, 4.125rem);
-  --space-2xl: clamp(4.5rem, 4.1207rem + 1.8391vw, 5.5rem);
-  --space-3xl: clamp(6.75rem, 6.181rem + 2.7586vw, 8.25rem);
-  --space-4xl: clamp(7.875rem, 7.2112rem + 3.2184vw, 9.625rem);
-  --space-3xs-2xs: clamp(0.3125rem, 0.1703rem + 0.6897vw, 0.6875rem);
-  --space-2xs-xs: clamp(0.5625rem, 0.3728rem + 0.9195vw, 1.0625rem);
-  --space-xs-s: clamp(0.875rem, 0.6853rem + 0.9195vw, 1.375rem);
-  --space-s-m: clamp(1.125rem, 1.0302rem + 0.4598vw, 1.375rem);
-  --space-m-l: clamp(1.125rem, 0.5086rem + 2.9885vw, 2.75rem);
-  --space-l-xl: clamp(2.25rem, 1.5388rem + 3.4483vw, 4.125rem);
-  --space-xl-2xl: clamp(3.375rem, 2.569rem + 3.908vw, 5.5rem);
-  --space-2xl-3xl: clamp(4.5rem, 3.0776rem + 6.8966vw, 8.25rem);
-  --space-3xl-4xl: clamp(6.75rem, 5.6595rem + 5.2874vw, 9.625rem);
-  --space-s-l: clamp(1.125rem, 0.5086rem + 2.9885vw, 2.75rem);
-  --space-xs-m: clamp(0.875rem, 0.6853rem + 0.9195vw, 1.375rem);
-  --size-step-5: clamp(2.5197rem, 1.8837rem + 3.0832vw, 4.1962rem);
-  --size-step-4: clamp(2.1444rem, 1.6845rem + 2.23vw, 3.3569rem);
-  --size-step-3: clamp(1.825rem, 1.4986rem + 1.5826vw, 2.6855rem);
-  --size-step-2: clamp(1.5532rem, 1.3274rem + 1.0947vw, 2.1484rem);
-  --size-step-1: clamp(0.9574rem, 0.9034rem + 0.2622vw, 1.1rem);
-  --size-step-0: clamp(1.125rem, 1.0302rem + 0.4598vw, 1.375rem);
+  --color-accent-team-builder: hsl(0deg 78% 62%);
+  --color-accent-supervisor: hsl(180deg 62% 55%);
+  --color-accent-karma: hsl(34deg 97% 64%);
+  --color-accent-calculator: hsl(212deg 86% 64%);
+  --color-background: hsl(0deg 0% 98%);
+  --color-base: hsl(229deg 6% 66%);
+  --color-primary: hsl(234deg 12% 34%);
+  --space-3xs: clamp(0.25rem, 0.2128rem + 0.1802vw, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.4443rem + 0.2703vw, 0.6875rem);
+  --space-xs: clamp(0.6875rem, 0.576rem + 0.5405vw, 1.0625rem);
+  --space-s: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
+  --space-m: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
+  --space-l: clamp(1.875rem, 1.6149rem + 1.2613vw, 2.75rem);
+  --space-xl: clamp(2.8125rem, 2.4223rem + 1.8919vw, 4.125rem);
+  --space-2xl: clamp(3.75rem, 3.2297rem + 2.5225vw, 5.5rem);
+  --space-3xl: clamp(5.625rem, 4.8446rem + 3.7838vw, 8.25rem);
+  --space-4xl: clamp(6.5625rem, 5.652rem + 4.4144vw, 9.625rem);
+  --space-3xs-2xs: clamp(0.25rem, 0.1199rem + 0.6306vw, 0.6875rem);
+  --space-2xs-xs: clamp(0.5rem, 0.3328rem + 0.8108vw, 1.0625rem);
+  --space-xs-s: clamp(0.6875rem, 0.4831rem + 0.991vw, 1.375rem);
+  --space-s-m: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
+  --space-m-l: clamp(0.9375rem, 0.3986rem + 2.6126vw, 2.75rem);
+  --space-l-xl: clamp(1.875rem, 1.2061rem + 3.2432vw, 4.125rem);
+  --space-xl-2xl: clamp(2.8125rem, 2.0135rem + 3.8739vw, 5.5rem);
+  --space-2xl-3xl: clamp(3.75rem, 2.4122rem + 6.4865vw, 8.25rem);
+  --space-3xl-4xl: clamp(5.625rem, 4.4358rem + 5.7658vw, 9.625rem);
+  --space-s-l: clamp(0.9375rem, 0.3986rem + 2.6126vw, 2.75rem);
+  --space-xs-m: clamp(0.6875rem, 0.4831rem + 0.991vw, 1.375rem);
+  --size-step-5: clamp(2.0997rem, 1.4764rem + 3.0219vw, 4.1962rem);
+  --size-step-4: clamp(1.787rem, 1.3203rem + 2.263vw, 3.3569rem);
+  --size-step-3: clamp(1.5208rem, 1.1746rem + 1.6788vw, 2.6855rem);
+  --size-step-2: clamp(1.2943rem, 1.0404rem + 1.2311vw, 2.1484rem);
+  --size-step-1: clamp(0.7979rem, 0.7081rem + 0.4355vw, 1.1rem);
+  --size-step-0: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
   --leading-flat: 1;
   --leading-fine: 1.15;
   --leading-loose: 1.7;
-  --font-base: shantell,segoe ui,roboto,helvetica neue,arial,sans-serif;
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-bold: 700;
+  --font-base: poppins,segoe ui,roboto,helvetica neue,arial,sans-serif;
+  --font-regular: 200;
+  --font-medium: 400;
+  --font-bold: 600;
   --gutter: var(--space-s-l);
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
@@ -149,11 +173,16 @@ textarea:not([rows]) {
   project: https://cube.fyi/css.html
 */
 body {
-  background: var(--color-light);
-  color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-base);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
+}
+
+h1,
+h3 {
+  color: var(--color-primary);
 }
 
 .prose {
@@ -362,8 +391,4 @@ Info: https://piccalil.li/quick-tip/visually-hidden/
 
 .block {
   display: block;
-}
-
-.text-primary {
-  color: #02394A;
 }
