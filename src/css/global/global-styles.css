@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 0.5em;
   color: var(--color-primary);
   font-weight: var(--font-bold);
   font-size: var(--size-step-3);

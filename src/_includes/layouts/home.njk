@@ -1,15 +1,11 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <main class="flow">
-    <header class="section">
-      <div class="section__inner">
-        <div class="wrapper flow region">
+  <main>
+    <header class="section region">
           <h1>{{ title }}</h1>
           <h2>{{ subtitle }}</h2>
-          <p>{{ summary }}</p>
-        </div>
-      </div>
+          <p class="section__summary">{{ summary }}</p>
     </header>
 
     {% for item in tools.items %}
