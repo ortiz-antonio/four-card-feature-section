@@ -1,3 +1,7 @@
+.section {
+  text-align: center;
+}
+
 .section__summary {
   text-align: center;
   font-size: var(--size-step-1);

@@ -8,12 +8,14 @@
       <p class="section__summary">{{ summary }}</p>
     </section>
 
-    {% for item in tools.items %}
-      <article class="card border-{{ item.titleSlug }}">
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.summary  | safe }}</p>
-        <img class="card__img flow" src="{{ item.art }}" alt="" />
-      </article>
-    {% endfor %}
+    <div class="grid" data-layout="cross-four">
+      {% for item in tools.items %}
+        <article class="card border-{{ item.titleSlug }}">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.summary  | safe }}</p>
+          <img class="card__img flow" src="{{ item.art }}" alt="" />
+        </article>
+      {% endfor %}
+    </div>
   </main>
 {% endblock %}
