@@ -13,19 +13,19 @@ body {
   font-weight: var(--font-regular);
 }
 
-h1 {
+h2 {
   font-weight: var(--font-medium);
   font-size: var(--size-step-3);
 }
 
-h2 {
+h3 {
   margin-top: 0.5em;
   color: var(--color-primary);
   font-weight: var(--font-bold);
   font-size: var(--size-step-3);
 }
 
-h3 {
+h4 {
   color: var(--color-primary);
   font-weight: var(--font-bold);
   font-size: var(--size-step-2);
