@@ -1,0 +1,15 @@
+.border-supervisor {
+  border-top: 3px solid var(--color-accent-supervisor);
+}
+
+.border-team-builder {
+  border-top: 3px solid var(--color-accent-team-builder);
+}
+
+.border-karma {
+  border-top: 3px solid var(--color-accent-karma);
+}
+
+.border-calculator {
+  border-top: 3px solid var(--color-accent-calculator);
+}
