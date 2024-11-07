@@ -36,6 +36,6 @@ to change how empty grid tracks are handled */
 }
 
 .grid[data-layout='cross-four'] {
-  --grid-placement: auto-fit;
-  --grid-min-item-size: clamp(16rem, 25vw, 33rem);
+  --grid-placement: auto-fill;
+  --grid-min-item-size: clamp(16rem, 25vw, 40rem);
 }

@@ -1,14 +1,14 @@
-.section {
+.features {
   text-align: center;
 }
 
-.section__summary {
+.features__summary {
   text-align: center;
   font-size: var(--size-step-1);
   font-weight: var(--font-medium);
 }
 
-.card {
+.feature {
   display: flex;
   flex-direction: column;
   padding: var(--space-xs);
@@ -19,7 +19,7 @@
     -1px 0 5px rgb(0 0 0 / 10%);
 }
 
-.card__img {
+.feature__img {
   align-self: flex-end;
   margin-top: 2em;
   max-inline-size: 3rem;
