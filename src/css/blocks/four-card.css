@@ -1,0 +1,5 @@
+.section__summary {
+  text-align: center;
+  font-size: var(--size-step-1);
+  font-weight: var(--font-medium);
+}

@@ -11,7 +11,7 @@
     {% for item in tools.items %}
       <article class="card flow">
         <h3>{{ item.title }}</h3>
-        {{ item.summary  | safe }}
+        <p>{{ item.summary  | safe }}</p>
         <img src="{{ item.art }}" alt="" />
       </article>
     {% endfor %}
