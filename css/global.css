@@ -123,33 +123,33 @@ textarea:not([rows]) {
   --color-background: hsl(0deg 0% 98%);
   --color-base: hsl(229deg 6% 66%);
   --color-primary: hsl(234deg 12% 34%);
-  --space-3xs: clamp(0.25rem, 0.2128rem + 0.1802vw, 0.375rem);
-  --space-2xs: clamp(0.5rem, 0.4443rem + 0.2703vw, 0.6875rem);
-  --space-xs: clamp(0.6875rem, 0.576rem + 0.5405vw, 1.0625rem);
-  --space-s: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
-  --space-m: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
-  --space-l: clamp(1.875rem, 1.6149rem + 1.2613vw, 2.75rem);
-  --space-xl: clamp(2.8125rem, 2.4223rem + 1.8919vw, 4.125rem);
-  --space-2xl: clamp(3.75rem, 3.2297rem + 2.5225vw, 5.5rem);
-  --space-3xl: clamp(5.625rem, 4.8446rem + 3.7838vw, 8.25rem);
-  --space-4xl: clamp(6.5625rem, 5.652rem + 4.4144vw, 9.625rem);
-  --space-3xs-2xs: clamp(0.25rem, 0.1199rem + 0.6306vw, 0.6875rem);
-  --space-2xs-xs: clamp(0.5rem, 0.3328rem + 0.8108vw, 1.0625rem);
-  --space-xs-s: clamp(0.6875rem, 0.4831rem + 0.991vw, 1.375rem);
-  --space-s-m: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
-  --space-m-l: clamp(0.9375rem, 0.3986rem + 2.6126vw, 2.75rem);
-  --space-l-xl: clamp(1.875rem, 1.2061rem + 3.2432vw, 4.125rem);
-  --space-xl-2xl: clamp(2.8125rem, 2.0135rem + 3.8739vw, 5.5rem);
-  --space-2xl-3xl: clamp(3.75rem, 2.4122rem + 6.4865vw, 8.25rem);
-  --space-3xl-4xl: clamp(5.625rem, 4.4358rem + 5.7658vw, 9.625rem);
-  --space-s-l: clamp(0.9375rem, 0.3986rem + 2.6126vw, 2.75rem);
-  --space-xs-m: clamp(0.6875rem, 0.4831rem + 0.991vw, 1.375rem);
-  --size-step-5: clamp(2.0997rem, 1.4764rem + 3.0219vw, 4.1962rem);
-  --size-step-4: clamp(1.787rem, 1.3203rem + 2.263vw, 3.3569rem);
-  --size-step-3: clamp(1.5208rem, 1.1746rem + 1.6788vw, 2.6855rem);
-  --size-step-2: clamp(1.2943rem, 1.0404rem + 1.2311vw, 2.1484rem);
-  --size-step-1: clamp(0.7979rem, 0.7081rem + 0.4355vw, 1.1rem);
-  --size-step-0: clamp(0.9375rem, 0.8074rem + 0.6306vw, 1.375rem);
+  --space-3xs: clamp(0.25rem, 0.2047rem + 0.2198vw, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.4093rem + 0.4396vw, 0.75rem);
+  --space-xs: clamp(0.6875rem, 0.5288rem + 0.7692vw, 1.125rem);
+  --space-s: clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem);
+  --space-m: clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem);
+  --space-l: clamp(1.875rem, 1.467rem + 1.978vw, 3rem);
+  --space-xl: clamp(2.8125rem, 2.2005rem + 2.967vw, 4.5rem);
+  --space-2xl: clamp(3.75rem, 2.9341rem + 3.956vw, 6rem);
+  --space-3xl: clamp(5.625rem, 4.4011rem + 5.9341vw, 9rem);
+  --space-4xl: clamp(6.5625rem, 5.1346rem + 6.9231vw, 10.5rem);
+  --space-3xs-2xs: clamp(0.25rem, 0.0687rem + 0.8791vw, 0.75rem);
+  --space-2xs-xs: clamp(0.5rem, 0.2734rem + 1.0989vw, 1.125rem);
+  --space-xs-s: clamp(0.6875rem, 0.3929rem + 1.4286vw, 1.5rem);
+  --space-s-m: clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem);
+  --space-m-l: clamp(0.9375rem, 0.1896rem + 3.6264vw, 3rem);
+  --space-l-xl: clamp(1.875rem, 0.9231rem + 4.6154vw, 4.5rem);
+  --space-xl-2xl: clamp(2.8125rem, 1.6566rem + 5.6044vw, 6rem);
+  --space-2xl-3xl: clamp(3.75rem, 1.8462rem + 9.2308vw, 9rem);
+  --space-3xl-4xl: clamp(5.625rem, 3.8571rem + 8.5714vw, 10.5rem);
+  --space-s-l: clamp(0.9375rem, 0.1896rem + 3.6264vw, 3rem);
+  --space-xs-m: clamp(0.6875rem, 0.3929rem + 1.4286vw, 1.5rem);
+  --size-step-5: clamp(1.6894rem, 0.642rem + 5.0782vw, 4.5776rem);
+  --size-step-4: clamp(1.5017rem, 0.7182rem + 3.7985vw, 3.6621rem);
+  --size-step-3: clamp(1.3348rem, 0.7565rem + 2.8041vw, 2.9297rem);
+  --size-step-2: clamp(1.1865rem, 0.7669rem + 2.0347vw, 2.3438rem);
+  --size-step-1: clamp(0.8333rem, 0.7004rem + 0.6447vw, 1.2rem);
+  --size-step-0: clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem);
   --leading-flat: 1;
   --leading-fine: 1.15;
   --leading-loose: 1.7;
@@ -163,7 +163,7 @@ textarea:not([rows]) {
   --transition-fade: 300ms ease;
   --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
   --leading-standard: 1.5;
-  --wrapper-max-width: 60rem;
+  --wrapper-max-width: 20rem;
 }
 
 /* 
@@ -175,14 +175,67 @@ textarea:not([rows]) {
 body {
   background-color: var(--color-background);
   color: var(--color-base);
-  font-size: var(--size-step-0);
   font-family: var(--font-base);
+  font-size: var(--size-step-0);
   line-height: var(--leading-standard);
+  font-weight: var(--font-regular);
 }
 
-h1,
+h1 {
+  font-weight: var(--font-medium);
+  font-size: var(--size-step-3);
+}
+
+h2 {
+  margin-top: 0.5em;
+  color: var(--color-primary);
+  font-weight: var(--font-bold);
+  font-size: var(--size-step-3);
+}
+
 h3 {
   color: var(--color-primary);
+  font-weight: var(--font-bold);
+  font-size: var(--size-step-2);
+}
+
+.section__summary {
+  text-align: center;
+  font-size: var(--size-step-1);
+  font-weight: var(--font-medium);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-xs);
+  margin-block-end: var(--space-m);
+  border-radius: 5px;
+  box-shadow:
+    0 5px 10px rgb(0 0 0 / 10%),
+    -1px 0 5px rgb(0 0 0 / 10%);
+}
+
+.card__img {
+  align-self: flex-end;
+  margin-top: 2em;
+  max-inline-size: 3rem;
+}
+
+.border-supervisor {
+  border-top: 3px solid var(--color-accent-supervisor);
+}
+
+.border-team-builder {
+  border-top: 3px solid var(--color-accent-team-builder);
+}
+
+.border-karma {
+  border-top: 3px solid var(--color-accent-karma);
+}
+
+.border-calculator {
+  border-top: 3px solid var(--color-accent-calculator);
 }
 
 .prose {
