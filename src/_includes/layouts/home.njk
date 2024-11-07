@@ -3,16 +3,16 @@
 {% block content %}
   <main>
     <header class="section region">
-          <h1>{{ title }}</h1>
-          <h2>{{ subtitle }}</h2>
-          <p class="section__summary">{{ summary }}</p>
+      <h1>{{ title }}</h1>
+      <h2>{{ subtitle }}</h2>
+      <p class="section__summary">{{ summary }}</p>
     </header>
 
     {% for item in tools.items %}
-      <article class="card flow">
+      <article class="card border-{{ item.titleSlug }}">
         <h3>{{ item.title }}</h3>
         <p>{{ item.summary  | safe }}</p>
-        <img src="{{ item.art }}" alt="" />
+        <img class="card__img flow" src="{{ item.art }}" alt="" />
       </article>
     {% endfor %}
   </main>
