@@ -10,7 +10,10 @@
 
     <div class="grid" data-layout="cross-four">
       {% for item in tools.items %}
-        <article class="feature border-{{ item.titleSlug }}">
+        <article
+          class="feature border-{{ item.titleSlug }}"
+          aria-labelledby="article-{{ item.titleSlug }}"
+        >
           <h4>{{ item.title }}</h4>
           <p>{{ item.summary  | safe }}</p>
           <img class="feature__img flow" src="{{ item.art }}" alt="" />
