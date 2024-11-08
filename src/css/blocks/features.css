@@ -1,9 +1,11 @@
 .features {
-  text-align: center;
+    display: grid;
+    place-content: center;
+    text-align:center;
 }
 
 .features__summary {
-  text-align: center;
+    max-inline-size: 55ch;
   font-size: var(--size-step-1);
   font-weight: var(--font-medium);
 }
@@ -41,26 +43,23 @@
   border-top: 3px solid var(--color-accent-calculator);
 }
 
-/* stylelint-disable-next-line media-query-no-invalid */
-/* @media screen(md) { */
-/*   .feature-supervisor { */
-/*     grid-row: supervisor; */
-/*     align-self: center; */
-/*   } */
+/* stylelint-disable */
+@media screen(lg) {
+  .feature-supervisor {
+    grid-row: supervisor;
+    align-self: center;
+  }
 
-/*   .feature-team-builder { */
-/*     grid-row: team-builder; */
-/*     border-top: 3px solid var(--color-accent-team-builder); */
-/*   } */
+  .feature-team-builder {
+    grid-row: team-builder;
+  }
 
-/*   .feature-karma { */
-/*     grid-row: karma; */
-/*     border-top: 3px solid var(--color-accent-karma); */
-/*   } */
+  .feature-karma {
+    grid-row: karma;
+  }
 
-/*   .feature-calculator { */
-/*     grid-row: calculator; */
-/*     align-self: center; */
-/*     border-top: 3px solid var(--color-accent-calculator); */
-/*   } */
-
+  .feature-calculator {
+    grid-row: calculator;
+    align-self: center;
+  }
+}
