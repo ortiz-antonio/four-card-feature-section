@@ -23,8 +23,8 @@ to change how empty grid tracks are handled */
   gap: var(--gutter, var(--space-xs-m));
 
   /* stylelint-disable */
-  @media screen(lg) {
-    --grid-min-item-size: clamp(16rem, 30%, 20rem);
+  @media screen(md) {
+    --grid-min-item-size: clamp(10rem, 30%, 16rem);
     grid-template-areas:
       'supervisor team-builder calculator'
       'supervisor karma calculator';

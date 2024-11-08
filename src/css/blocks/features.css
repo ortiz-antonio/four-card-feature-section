@@ -44,7 +44,7 @@
 }
 
 /* stylelint-disable */
-@media screen(lg) {
+@media screen(md) {
   .feature-supervisor {
     grid-row: supervisor;
     align-self: center;
