@@ -24,3 +24,43 @@
   margin-top: 2em;
   max-inline-size: 3rem;
 }
+
+.feature-supervisor {
+  border-top: 3px solid var(--color-accent-supervisor);
+}
+
+.feature-team-builder {
+  border-top: 3px solid var(--color-accent-team-builder);
+}
+
+.feature-karma {
+  border-top: 3px solid var(--color-accent-karma);
+}
+
+.feature-calculator {
+  border-top: 3px solid var(--color-accent-calculator);
+}
+
+/* stylelint-disable-next-line media-query-no-invalid */
+@media screen(md) {
+  .feature-supervisor {
+    grid-row: supervisor;
+    align-self: center;
+  }
+
+  .feature-team-builder {
+    grid-row: team-builder;
+    border-top: 3px solid var(--color-accent-team-builder);
+  }
+
+  .feature-karma {
+    grid-row: karma;
+    border-top: 3px solid var(--color-accent-karma);
+  }
+
+  .feature-calculator {
+    grid-row: calculator;
+    align-self: center;
+    border-top: 3px solid var(--color-accent-calculator);
+  }
+}

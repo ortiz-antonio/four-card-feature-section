@@ -8,11 +8,11 @@
       <p class="features__summary">{{ summary }}</p>
     </section>
 
-    <div class="grid" data-layout="cross-four">
+    <div class="grid">
       {% for item in tools.items %}
         <article
-          class="feature border-{{ item.titleSlug }}"
-          aria-labelledby="article-{{ item.titleSlug }}"
+          class="feature feature-{{ item.titleSlug }}"
+          aria-labelledby="feature-{{ item.titleSlug }}"
         >
           <h4>{{ item.title }}</h4>
           <p>{{ item.summary  | safe }}</p>
