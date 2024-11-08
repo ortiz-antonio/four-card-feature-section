@@ -22,11 +22,12 @@ to change how empty grid tracks are handled */
   );
   gap: var(--gutter, var(--space-s-l));
   /* stylelint-disable-next-line media-query-no-invalid */
-  @media screen(md) {
-    grid-template-areas:
-      'supervisor team-builder calculator'
-      'supervisor karma calculator';
-  }
+  /* @media screen(md) { */
+  /*   grid-template-areas: */
+  /*     'supervisor team-builder calculator' */
+  /*     'supervisor karma calculator'; */
+  /* } */
+
 }
 
 /* A split 50/50 layout */

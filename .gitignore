@@ -21,6 +21,8 @@ pnpm-lock.yaml
 package-lock.json
 .task
 
-#emacs
+# emacs
+\#*\#
+.\#*
 todo.org
 *~
