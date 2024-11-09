@@ -144,12 +144,12 @@ textarea:not([rows]) {
   --space-3xl-4xl: clamp(5.625rem, 3.8571rem + 8.5714vw, 10.5rem);
   --space-s-l: clamp(0.9375rem, 0.1896rem + 3.6264vw, 3rem);
   --space-xs-m: clamp(0.6875rem, 0.3929rem + 1.4286vw, 1.5rem);
-  --size-step-5: clamp(1.6894rem, 0.642rem + 5.0782vw, 4.5776rem);
-  --size-step-4: clamp(1.5017rem, 0.7182rem + 3.7985vw, 3.6621rem);
-  --size-step-3: clamp(1.3348rem, 0.7565rem + 2.8041vw, 2.9297rem);
-  --size-step-2: clamp(1.1865rem, 0.7669rem + 2.0347vw, 2.3438rem);
-  --size-step-1: clamp(0.8333rem, 0.7004rem + 0.6447vw, 1.2rem);
-  --size-step-0: clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem);
+  --size-step-5: clamp(1.6894rem, 1.057rem + 3.0661vw, 3.4332rem);
+  --size-step-4: clamp(1.5017rem, 1.0503rem + 2.1888vw, 2.7466rem);
+  --size-step-3: clamp(1.3348rem, 1.0221rem + 1.5164vw, 2.1973rem);
+  --size-step-2: clamp(1.1865rem, 0.9794rem + 1.0045vw, 1.7578rem);
+  --size-step-1: clamp(0.8333rem, 0.8092rem + 0.1172vw, 0.9rem);
+  --size-step-0: clamp(0.9375rem, 0.8695rem + 0.3297vw, 1.125rem);
   --leading-flat: 1;
   --leading-fine: 1.15;
   --leading-loose: 1.7;
@@ -163,7 +163,7 @@ textarea:not([rows]) {
   --transition-fade: 300ms ease;
   --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
   --leading-standard: 1.5;
-  --wrapper-max-width: 60rem;
+  --wrapper-max-width: 77.5rem;
 }
 
 /* 
@@ -176,7 +176,7 @@ body {
   background-color: var(--color-background);
   color: var(--color-base);
   font-family: var(--font-base);
-  font-size: var(--size-step-0);
+  font-size: var(--size-step-1);
   line-height: var(--leading-standard);
   font-weight: var(--font-regular);
 }
@@ -220,11 +220,13 @@ h4 {
 }
 
 .features {
+  display: grid;
+  place-content: center;
   text-align: center;
 }
 
 .features__summary {
-  text-align: center;
+  max-inline-size: 55ch;
   font-size: var(--size-step-1);
   font-weight: var(--font-medium);
 }
@@ -246,6 +248,42 @@ h4 {
   max-inline-size: 3rem;
 }
 
+.feature-supervisor {
+  border-top: 3px solid var(--color-accent-supervisor);
+}
+
+.feature-team-builder {
+  border-top: 3px solid var(--color-accent-team-builder);
+}
+
+.feature-karma {
+  border-top: 3px solid var(--color-accent-karma);
+}
+
+.feature-calculator {
+  border-top: 3px solid var(--color-accent-calculator);
+}
+/* stylelint-disable */
+@media (min-width: 760px) {
+  .feature-supervisor {
+    grid-row: supervisor;
+    align-self: center;
+  }
+
+  .feature-team-builder {
+    grid-row: team-builder;
+  }
+
+  .feature-karma {
+    grid-row: karma;
+  }
+
+  .feature-calculator {
+    grid-row: calculator;
+    align-self: center;
+  }
+}
+/* stylelint-enable */
 .prose {
   --flow-space: var(--space-m);
 }
@@ -302,9 +340,18 @@ to change how empty grid tracks are handled */
   display: grid;
   grid-template-columns: repeat(
     var(--grid-placement, auto-fill),
-    minmax(var(--grid-min-item-size, 16rem), 1fr)
+    minmax(var(--grid-min-item-size, 21rem), 1fr)
   );
-  gap: var(--gutter, var(--space-s-l));
+  gap: var(--gutter, var(--space-xs-m));
+
+  /* stylelint-disable */
+  @media (min-width: 760px) {
+    --grid-min-item-size: clamp(10rem, 30%, 16rem);
+    grid-template-areas:
+      'supervisor team-builder calculator'
+      'supervisor karma calculator';
+  }
+  /* stylelint-enable */
 }
 
 /* A split 50/50 layout */
@@ -429,22 +476,6 @@ A common wrapper/container
   padding-left: var(--gutter);
   padding-right: var(--gutter);
   position: relative;
-}
-
-.border-supervisor {
-  border-top: 3px solid var(--color-accent-supervisor);
-}
-
-.border-team-builder {
-  border-top: 3px solid var(--color-accent-team-builder);
-}
-
-.border-karma {
-  border-top: 3px solid var(--color-accent-karma);
-}
-
-.border-calculator {
-  border-top: 3px solid var(--color-accent-calculator);
 }
 
 /* 
