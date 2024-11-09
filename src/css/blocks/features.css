@@ -1,11 +1,11 @@
 .features {
-    display: grid;
-    place-content: center;
-    text-align:center;
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
 
 .features__summary {
-    max-inline-size: 55ch;
+  max-inline-size: 55ch;
   font-size: var(--size-step-1);
   font-weight: var(--font-medium);
 }
@@ -63,3 +63,4 @@
     align-self: center;
   }
 }
+/* stylelint-enable */

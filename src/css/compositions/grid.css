@@ -29,6 +29,7 @@ to change how empty grid tracks are handled */
       'supervisor team-builder calculator'
       'supervisor karma calculator';
   }
+  /* stylelint-enable */
 }
 
 /* A split 50/50 layout */
