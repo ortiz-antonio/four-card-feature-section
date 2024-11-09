@@ -340,7 +340,7 @@ to change how empty grid tracks are handled */
   display: grid;
   grid-template-columns: repeat(
     var(--grid-placement, auto-fill),
-    minmax(var(--grid-min-item-size, 21rem), 1fr)
+    minmax(var(--grid-min-item-size, 8rem), 1fr)
   );
   gap: var(--gutter, var(--space-xs-m));
 
