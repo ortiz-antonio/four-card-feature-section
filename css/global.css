@@ -338,10 +338,7 @@ ideally, as a minimum.
 to change how empty grid tracks are handled */
 .grid {
   display: grid;
-  grid-template-columns: repeat(
-    var(--grid-placement, auto-fill),
-    minmax(var(--grid-min-item-size, 8rem), 1fr)
-  );
+  grid-template-columns: repeat(var(--grid-placement, auto-fill), 1fr);
   gap: var(--gutter, var(--space-xs-m));
 
   /* stylelint-disable */
