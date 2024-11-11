@@ -3,10 +3,10 @@ version: '3'
 tasks:
   tokens:
     sources:
-      - utopia.local/config.js
+      - ./utils/utopia/config.js
     generates:
       - src/design-tokens/text-sizes.json
       - src/design-tokens/spacing.json
       - src/design-tokens/viewports.json
     cmds:
-      - node utopia.local/src/index.js
+      - node ./utils/utopia/src/index.js

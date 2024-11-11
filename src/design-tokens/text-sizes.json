@@ -4,45 +4,38 @@
   "items": [
     {
       "name": "Step 5",
-      "min": 27,
-      "max": 55,
-      "value": "clamp(1.6894rem, 1.057rem + 3.0661vw, 3.4332rem)"
+      "min": 40,
+      "max": 67
     },
     {
       "name": "Step 4",
-      "min": 24,
-      "max": 44,
-      "value": "clamp(1.5017rem, 1.0503rem + 2.1888vw, 2.7466rem)"
+      "min": 34,
+      "max": 54
     },
     {
       "name": "Step 3",
-      "min": 21,
-      "max": 35,
-      "value": "clamp(1.3348rem, 1.0221rem + 1.5164vw, 2.1973rem)"
+      "min": 29,
+      "max": 43
     },
     {
       "name": "Step 2",
-      "min": 19,
-      "max": 28,
-      "value": "clamp(1.1865rem, 0.9794rem + 1.0045vw, 1.7578rem)"
+      "min": 25,
+      "max": 34
     },
     {
       "name": "Step 1",
-      "min": 17,
-      "max": 23,
-      "value": "clamp(1.0547rem, 0.9272rem + 0.6181vw, 1.4063rem)"
+      "min": 21,
+      "max": 28
     },
     {
       "name": "Step 0",
-      "min": 15,
-      "max": 18,
-      "value": "clamp(0.9375rem, 0.8695rem + 0.3297vw, 1.125rem)"
+      "min": 18,
+      "max": 22
     },
     {
       "name": "Step -1",
-      "min": 13,
-      "max": 14,
-      "value": "clamp(0.8333rem, 0.8092rem + 0.1172vw, 0.9rem)"
+      "min": 15,
+      "max": 18
     }
   ]
 }

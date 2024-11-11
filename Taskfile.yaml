@@ -5,8 +5,8 @@ includes:
   assets: ./taskfiles/assets.yaml
   build: ./taskfiles/build.yaml
   dev: ./taskfiles/dev.yaml
-  utils:readme: ./utils/readme/Taskfile.yaml
-  utils:utopia: ./utils/utopia/Taskfile.yaml
+  utils:readme: ./taskfiles/readme.yaml
+  utils:utopia: ./taskfiles/utopia.yaml
 
 tasks:
   default:

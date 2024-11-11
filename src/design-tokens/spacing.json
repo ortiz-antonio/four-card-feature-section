@@ -4,129 +4,108 @@
   "items": [
     {
       "name": "3xs",
-      "min": 4,
-      "max": 6,
-      "value": "clamp(0.25rem, 0.2047rem + 0.2198vw, 0.375rem)"
+      "min": 5,
+      "max": 6
     },
     {
       "name": "2xs",
-      "min": 8,
-      "max": 12,
-      "value": "clamp(0.5rem, 0.4093rem + 0.4396vw, 0.75rem)"
+      "min": 9,
+      "max": 11
     },
     {
       "name": "xs",
-      "min": 11,
-      "max": 18,
-      "value": "clamp(0.6875rem, 0.5288rem + 0.7692vw, 1.125rem)"
+      "min": 14,
+      "max": 17
     },
     {
       "name": "s",
-      "min": 15,
-      "max": 24,
-      "value": "clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem)"
+      "min": 18,
+      "max": 22
     },
     {
       "name": "m",
-      "min": 15,
-      "max": 24,
-      "value": "clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem)"
+      "min": 18,
+      "max": 22
     },
     {
       "name": "l",
-      "min": 30,
-      "max": 48,
-      "value": "clamp(1.875rem, 1.467rem + 1.978vw, 3rem)"
+      "min": 36,
+      "max": 44
     },
     {
       "name": "xl",
-      "min": 45,
-      "max": 72,
-      "value": "clamp(2.8125rem, 2.2005rem + 2.967vw, 4.5rem)"
+      "min": 54,
+      "max": 66
     },
     {
       "name": "2xl",
-      "min": 60,
-      "max": 96,
-      "value": "clamp(3.75rem, 2.9341rem + 3.956vw, 6rem)"
+      "min": 72,
+      "max": 88
     },
     {
       "name": "3xl",
-      "min": 90,
-      "max": 144,
-      "value": "clamp(5.625rem, 4.4011rem + 5.9341vw, 9rem)"
+      "min": 108,
+      "max": 132
     },
     {
       "name": "4xl",
-      "min": 105,
-      "max": 168,
-      "value": "clamp(6.5625rem, 5.1346rem + 6.9231vw, 10.5rem)"
+      "min": 126,
+      "max": 154
     },
     {
       "name": "3xs-2xs",
-      "min": 4,
-      "max": 12,
-      "value": "clamp(0.25rem, 0.0687rem + 0.8791vw, 0.75rem)"
+      "min": 5,
+      "max": 11
     },
     {
       "name": "2xs-xs",
-      "min": 8,
-      "max": 18,
-      "value": "clamp(0.5rem, 0.2734rem + 1.0989vw, 1.125rem)"
+      "min": 9,
+      "max": 17
     },
     {
       "name": "xs-s",
-      "min": 11,
-      "max": 24,
-      "value": "clamp(0.6875rem, 0.3929rem + 1.4286vw, 1.5rem)"
+      "min": 14,
+      "max": 22
     },
     {
       "name": "s-m",
-      "min": 15,
-      "max": 24,
-      "value": "clamp(0.9375rem, 0.7335rem + 0.989vw, 1.5rem)"
+      "min": 18,
+      "max": 22
     },
     {
       "name": "m-l",
-      "min": 15,
-      "max": 48,
-      "value": "clamp(0.9375rem, 0.1896rem + 3.6264vw, 3rem)"
+      "min": 18,
+      "max": 44
     },
     {
       "name": "l-xl",
-      "min": 30,
-      "max": 72,
-      "value": "clamp(1.875rem, 0.9231rem + 4.6154vw, 4.5rem)"
+      "min": 36,
+      "max": 66
     },
     {
       "name": "xl-2xl",
-      "min": 45,
-      "max": 96,
-      "value": "clamp(2.8125rem, 1.6566rem + 5.6044vw, 6rem)"
+      "min": 54,
+      "max": 88
     },
     {
       "name": "2xl-3xl",
-      "min": 60,
-      "max": 144,
-      "value": "clamp(3.75rem, 1.8462rem + 9.2308vw, 9rem)"
+      "min": 72,
+      "max": 132
     },
     {
       "name": "3xl-4xl",
-      "min": 90,
-      "max": 168,
-      "value": "clamp(5.625rem, 3.8571rem + 8.5714vw, 10.5rem)"
+      "min": 108,
+      "max": 154
     },
     {
       "name": "s-l",
-      "min": 15,
-      "max": 48,
-      "value": "clamp(0.9375rem, 0.1896rem + 3.6264vw, 3rem)"
+      "min": 18,
+      "max": 44
     },
     {
       "name": "xs-m",
-      "min": 11,
-      "max": 24,
-      "value": "clamp(0.6875rem, 0.3929rem + 1.4286vw, 1.5rem)"
+      "min": 14,
+      "max": 22
     }
   ]
 }
