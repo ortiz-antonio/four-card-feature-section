@@ -1,10 +1,10 @@
-.features {
+.features__header {
+  text-align: center;
   display: grid;
   place-content: center;
-  text-align: center;
 }
 
-.features__summary {
+.features__header--summary {
   max-inline-size: 55ch;
   font-size: var(--size-step-1);
   font-weight: var(--font-medium);
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   padding: var(--space-xs);
-  margin-block-end: var(--space-m);
+  margin-block-start: var(--space-m);
   border-radius: 5px;
   box-shadow:
     0 5px 10px rgb(0 0 0 / 10%),

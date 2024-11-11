@@ -1,14 +1,14 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <main>
-    <section class="features region">
+  <section class="features region">
+    <div class="features__header">
       <hgroup>
         <h2>{{ title }}</h2>
         <h3>{{ subtitle }}</h3>
       </hgroup>
-      <p class="features__summary">{{ summary }}</p>
-    </section>
+      <p class="features__header--summary">{{ summary }}</p>
+    </div>
 
     <div class="grid">
       {% for item in tools.items %}
@@ -18,9 +18,9 @@
         >
           <h4>{{ item.title }}</h4>
           <p>{{ item.summary  | safe }}</p>
-          <img class="feature__img flow" src="{{ item.art }}" alt="" />
+          <img class="feature__img" src="{{ item.art }}" alt="" />
         </article>
       {% endfor %}
     </div>
-  </main>
+  </section>
 {% endblock %}
