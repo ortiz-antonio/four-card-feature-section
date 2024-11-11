@@ -1,7 +1,7 @@
 ---
 title: "Reliable, efficient delivery"
 subtitle: "Powered by Technology"
-socialImage: "images/icon-karma.svg"
+socialImage: "images/screenshot.png"
 summary:
   "Our Artificial Intelligence powered tools use millions of project data points to ensure
   that your project is successful"
