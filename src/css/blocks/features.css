@@ -16,6 +16,7 @@
   padding: var(--space-xs);
   margin-block-start: var(--space-m);
   border-radius: 5px;
+  background-color: white;
   box-shadow:
     0 5px 10px rgb(0 0 0 / 10%),
     -1px 0 5px rgb(0 0 0 / 10%);
