@@ -24,7 +24,7 @@
 .feature__img {
   align-self: flex-end;
   margin-top: 2em;
-  max-inline-size: 3rem;
+  aspect-ratio: 1;
 }
 
 .feature-supervisor {
