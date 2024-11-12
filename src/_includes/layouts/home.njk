@@ -19,7 +19,13 @@
         >
           <h4>{{ item.title }}</h4>
           <p>{{ item.summary  | safe }}</p>
-          <img class="feature__img" src="{{ item.art }}" alt="" />
+          <img
+            class="feature__img"
+            src="{{ item.art }}"
+            alt=""
+            width="64px"
+            height="64px"
+          />
         </article>
       {% endfor %}
     </div>
