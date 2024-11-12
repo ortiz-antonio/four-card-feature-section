@@ -121,7 +121,7 @@ textarea:not([rows]) {
   --color-accent-karma: hsl(34deg 97% 64%);
   --color-accent-calculator: hsl(212deg 86% 64%);
   --color-background: hsl(0deg 0% 98%);
-  --color-base: hsl(229deg 6% 66%);
+  --color-base: hsl(229deg 6% 36%);
   --color-primary: hsl(234deg 12% 34%);
   --space-3xs: clamp(0.3125rem, 0.2888rem + 0.1149vw, 0.375rem);
   --space-2xs: clamp(0.5625rem, 0.5151rem + 0.2299vw, 0.6875rem);
