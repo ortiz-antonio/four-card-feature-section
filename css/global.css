@@ -183,14 +183,14 @@ body {
 }
 
 h2 {
-  font-weight: var(--font-medium);
+  font-weight: var(--font-regular);
   font-size: var(--size-step-3);
 }
 
 h3 {
   margin-top: 0.2em;
   color: var(--color-primary);
-  font-weight: var(--font-bold);
+  font-weight: var(--font-medium);
   font-size: var(--size-step-3);
 }
 
