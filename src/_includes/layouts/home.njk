@@ -15,9 +15,8 @@
         <article
           class="feature feature-{{ item.titleSlug }}"
           aria-labelledby="feature-{{ item.titleSlug }}"
-          id="feature-{{ item.titleSlug }}"
         >
-          <h4>{{ item.title }}</h4>
+          <h4 id="feature-{{ item.titleSlug }}"> {{ item.title }}</h4>
           <p>{{ item.summary  | safe }}</p>
           <img
             class="feature__img"
